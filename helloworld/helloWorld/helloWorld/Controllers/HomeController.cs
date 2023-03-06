@@ -6,6 +6,8 @@ namespace helloWorld.Controllers
 {
     public class HomeController : Controller
     {
+        // 1 controller có thể tạo nhiều Action
+        // 1 hàm action chỉ tạo được 1 view 
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)
