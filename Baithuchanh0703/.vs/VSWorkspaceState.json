@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Baithuchanh0703",
-    "\\Baithuchanh0703\\Views",
-    "\\Baithuchanh0703\\Views\\Shared"
+    "\\test1",
+    "\\test1\\Controllers"
   ],
-  "SelectedNode": "\\Baithuchanh0703.sln",
+  "SelectedNode": "\\test1\\Controllers\\StudentController.cs",
   "PreviewInSolutionExplorer": false
 }
