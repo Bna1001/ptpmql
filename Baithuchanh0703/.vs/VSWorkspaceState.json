@@ -2,7 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\test1",
-    "\\test1\\Controllers"
+    "\\test1\\Controllers",
+    "\\test1\\Views",
+    "\\test1\\Views\\Student"
   ],
   "SelectedNode": "\\test1\\Controllers\\StudentController.cs",
   "PreviewInSolutionExplorer": false
