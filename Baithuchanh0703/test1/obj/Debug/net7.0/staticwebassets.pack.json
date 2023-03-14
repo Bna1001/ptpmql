@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\baithuchanh\\baithuchanh0703\\test1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\test1.bundle.scp.css",
-      "PackagePath": "staticwebassets\\test1.bundle.scp.css"
+      "Id": "D:\\baithuchanh\\baithuchanh0703\\test1\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\baithuchanh0703.bundle.scp.css",
+      "PackagePath": "staticwebassets\\baithuchanh0703.bundle.scp.css"
     },
     {
       "Id": "D:\\baithuchanh\\baithuchanh0703\\test1\\wwwroot\\css\\site.css",
@@ -245,20 +245,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.test1.props",
-      "PackagePath": "build\\test1.props"
-    },
-    {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.test1.props",
-      "PackagePath": "buildMultiTargeting\\test1.props"
-    },
-    {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.test1.props",
-      "PackagePath": "buildTransitive\\test1.props"
-    },
-    {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.test1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.baithuchanh0703.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.baithuchanh0703.props",
+      "PackagePath": "build\\baithuchanh0703.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.baithuchanh0703.props",
+      "PackagePath": "buildMultiTargeting\\baithuchanh0703.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.baithuchanh0703.props",
+      "PackagePath": "buildTransitive\\baithuchanh0703.props"
     }
   ],
   "ElementsToRemove": []
