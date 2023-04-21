@@ -18,5 +18,5 @@ namespace baithuchanh2003.Data
     }    
         
 }
-
+//hello
 // class nào muốn ánh xạ thì phải khai báo ,sau khi ta đã khai báo ,chạy 2 lệnh dotnet migration và update để ánh xạ
