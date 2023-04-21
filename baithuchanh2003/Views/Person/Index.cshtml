@@ -1,0 +1,27 @@
+@model IEnumerable<baithuchanh2003.Models.Person>
+    <p>
+        <a class="btn btn-success" asp-action="Create">Create a new Person</a>
+    </p>
+    <table class="table table-all">
+        <tr>
+            <th>Person Code</th>
+            <th>Name</th>
+            <th>Sex</th>
+            <th>Phone Number</th>
+            <th>Address</th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => item.PersonCode)</td>
+                <td>@Html.DisplayFor(m => item.PersonName)</td>
+                <td>@Html.DisplayFor(m => item.PersonSex)</td>
+                <td>@Html.DisplayFor(m => item.PhoneNumber)</td>
+                <td>@Html.DisplayFor(m => item.Address)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.PersonCode"><input type="submit" value="Sửa" class="btn btn-success"></a>
+                    <a asp-action="Delete" asp-route-id="@item.PersonCode"><input type="submit" value="Xóa" class="btn btn-success"></a>
+                </td>
+            </tr>            
+        }
+    </table>

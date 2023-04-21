@@ -1,0 +1,46 @@
+@model baithuchanh2003.Models.Person
+<h1>Tao moi mot nguoi dung</h1>
+<hr>
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-sumary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PersonCode" class="control-lable"></label>
+                <input asp-for="PersonCode" class="form-control">
+                <span asp-validation-for="PersonCode" class="text-danger"></span>
+            </div>
+             <div class="form-group">
+                <label asp-for="PersonName" class="control-lable"></label>
+                <input asp-for="PersonName" class="form-control">
+                <span asp-validation-for="PersonName" class="text-danger"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="PhoneNumber" class="control-lable"></label>
+                <input asp-for="PhoneNumber" class="form-control">
+                <span asp-validation-for="PersonName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-lable"></label>
+                <input asp-for="Address" class="form-control">
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>    
+            <div class="form-group">
+                <label asp-for="PersonSex" class="control-lable"></label>
+                @* <input asp-for="PersonSex" class="form-control">  *@
+                <br>
+                <select id="PersonSex" name="PersonSex" class="form-control">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select> 
+                <span asp-validation-for="PersonSex" class="text-danger"></span>
+            </div>      
+            <br>
+             <div class="form-group">
+                <input class="btn btn-primary" type="submit" value="save">
+                <a class="btn btn-success" asp-action="Index">danh sach nguoi dung</a>
+            </div>
+        </form>
+    </div>
+</div>
