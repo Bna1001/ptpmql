@@ -8,10 +8,23 @@ namespace baithuchanh1303.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         GiaiPhuongTrinh gpt = new GiaiPhuongTrinh();
+        StringProcess abc = new StringProcess();
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
+        public IActionResult HelloWorld()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult HelloWorld(string FullName)
+        {
+            string ketqua = "xin chao " + FullName;
+            ViewBag.message = ketqua;
+            return View();
+        }
+        [HttpPost]
         public IActionResult GPTB1()
         {
             return View();

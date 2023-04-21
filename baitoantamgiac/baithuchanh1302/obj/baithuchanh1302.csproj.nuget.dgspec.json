@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\baithuchanh\\baithuchanh1303nhap\\baithuchanh1302\\baithuchanh1302.csproj": {}
+    "D:\\baithuchanh\\baitoantamgiac\\baithuchanh1302\\baithuchanh1302.csproj": {}
   },
   "projects": {
-    "D:\\baithuchanh\\baithuchanh1303nhap\\baithuchanh1302\\baithuchanh1302.csproj": {
+    "D:\\baithuchanh\\baitoantamgiac\\baithuchanh1302\\baithuchanh1302.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\baithuchanh\\baithuchanh1303nhap\\baithuchanh1302\\baithuchanh1302.csproj",
+        "projectUniqueName": "D:\\baithuchanh\\baitoantamgiac\\baithuchanh1302\\baithuchanh1302.csproj",
         "projectName": "baithuchanh1302",
-        "projectPath": "D:\\baithuchanh\\baithuchanh1303nhap\\baithuchanh1302\\baithuchanh1302.csproj",
+        "projectPath": "D:\\baithuchanh\\baitoantamgiac\\baithuchanh1302\\baithuchanh1302.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\baithuchanh\\baithuchanh1303nhap\\baithuchanh1302\\obj\\",
+        "outputPath": "D:\\baithuchanh\\baitoantamgiac\\baithuchanh1302\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,11 +1,12 @@
-﻿namespace baithuchanh1302.Models.Process 
+﻿namespace baithuchanh1302.Models.Process
 {
-    public class GiaiPhuongTrinh 
+    public class GiaiPhuongTrinh
     {
-        public string GiaiPhuongTrinhB1(double a,double b) 
+        public string GiaiPhuongTrinhB1(double a,double b)
         {
-            double x = -a / b;
-            return "Nghiem cua phuong trinh x la: " + x;
+            double x = -b / a;
+            return "nghiem cua phuong trinh x la : "+x;
         }
     }
 }
+
